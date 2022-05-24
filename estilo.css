@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    display: none;
+}
+
+#carregando{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+.titulopaises{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    margin-left: 420px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+.bloco{
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.un{
+    margin-right: 20px ;
+}
+
+.custom-shape-divider-top-1653228938 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    /*line-height: 0;*/
+}
+
+.custom-shape-divider-top-1653228938 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 67px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1653228938 .shape-fill {
+    fill: #4682B4;
+}
+
+.global{
+    margin-left: 20px;
+}
+
+.paises{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.conteudoGlobal{
+    width: 70%;
+    margin-left: 10px;
+    /*height: 200px;*/
+    /* border: 1px black solid; */
+}
+.conteudoFavoritos{
+    width: 70%;
+    margin-left: 10px;
+    height: 200px;
+    /*border: 1px black solid;*/
+}
+img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.conteudo{
+    display: flex;
+    margin: 20px;
+}
+.add:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px darkgreen;
+    transition: 0.4s;
+}
+.del:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px darkred;
+    transition: 0.4s;
+}
