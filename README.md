@@ -1,4 +1,4 @@
-# API_Paises
+# API Países
 
 Projeto desenvolvido na aula de Desenvolvimento WEB, com o objetivo de aprender sobre o uso e manipulação de APIS em JS
 
